@@ -31,7 +31,7 @@
 		9F0516F225BA3D7900E45EBB /* ConnectionsEndpointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0516F125BA3D7900E45EBB /* ConnectionsEndpointTests.swift */; };
 		9F0516FD25BA3FF400E45EBB /* SearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0516FC25BA3FF400E45EBB /* SearchRepository.swift */; };
 		9F05170225BA40A600E45EBB /* SearchProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F05170125BA40A600E45EBB /* SearchProtocols.swift */; };
-		9F05170825BA428D00E45EBB /* SearchRepositorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F05170725BA428D00E45EBB /* SearchRepositorTests.swift */; };
+		9F05170825BA428D00E45EBB /* SearchRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F05170725BA428D00E45EBB /* SearchRepositoryTests.swift */; };
 		9F05171125BA432A00E45EBB /* MockNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F05171025BA432A00E45EBB /* MockNetworking.swift */; };
 		9F05171925BA443D00E45EBB /* MockConnectionsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F05171825BA443D00E45EBB /* MockConnectionsList.swift */; };
 /* End PBXBuildFile section */
@@ -81,7 +81,7 @@
 		9F0516F125BA3D7900E45EBB /* ConnectionsEndpointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionsEndpointTests.swift; sourceTree = "<group>"; };
 		9F0516FC25BA3FF400E45EBB /* SearchRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepository.swift; sourceTree = "<group>"; };
 		9F05170125BA40A600E45EBB /* SearchProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProtocols.swift; sourceTree = "<group>"; };
-		9F05170725BA428D00E45EBB /* SearchRepositorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositorTests.swift; sourceTree = "<group>"; };
+		9F05170725BA428D00E45EBB /* SearchRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositoryTests.swift; sourceTree = "<group>"; };
 		9F05171025BA432A00E45EBB /* MockNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworking.swift; sourceTree = "<group>"; };
 		9F05171825BA443D00E45EBB /* MockConnectionsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockConnectionsList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -248,7 +248,7 @@
 		9F05170625BA426F00E45EBB /* SearchView */ = {
 			isa = PBXGroup;
 			children = (
-				9F05170725BA428D00E45EBB /* SearchRepositorTests.swift */,
+				9F05170725BA428D00E45EBB /* SearchRepositoryTests.swift */,
 			);
 			path = SearchView;
 			sourceTree = "<group>";
@@ -427,7 +427,7 @@
 				9F0516B925BA34DD00E45EBB /* HttpClientTests.swift in Sources */,
 				9F05171125BA432A00E45EBB /* MockNetworking.swift in Sources */,
 				9F0516CD25BA377000E45EBB /* HttpRequestTests.swift in Sources */,
-				9F05170825BA428D00E45EBB /* SearchRepositorTests.swift in Sources */,
+				9F05170825BA428D00E45EBB /* SearchRepositoryTests.swift in Sources */,
 				9F05171925BA443D00E45EBB /* MockConnectionsList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
