@@ -11,13 +11,20 @@
 		9F05161B25BA1F5000E45EBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F05161A25BA1F5000E45EBB /* SceneDelegate.swift */; };
 		9F05162225BA1F5200E45EBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F05162125BA1F5200E45EBB /* Assets.xcassets */; };
 		9F05162525BA1F5200E45EBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F05162325BA1F5200E45EBB /* LaunchScreen.storyboard */; };
-		9F05163025BA1F5200E45EBB /* TravelAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F05162F25BA1F5200E45EBB /* TravelAppTests.swift */; };
 		9F05163B25BA1F5200E45EBB /* TravelAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F05163A25BA1F5200E45EBB /* TravelAppUITests.swift */; };
 		9F05166125BA238B00E45EBB /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F05166025BA238B00E45EBB /* AppCoordinator.swift */; };
 		9F05166625BA240000E45EBB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F05166525BA240000E45EBB /* SearchViewController.swift */; };
 		9F05167E25BA271400E45EBB /* OHHTTPStubs in Frameworks */ = {isa = PBXBuildFile; productRef = 9F05167D25BA271400E45EBB /* OHHTTPStubs */; };
 		9F05168025BA271400E45EBB /* OHHTTPStubsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9F05167F25BA271400E45EBB /* OHHTTPStubsSwift */; };
 		9F05168625BA277300E45EBB /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 9F05168525BA277300E45EBB /* SnapshotTesting */; };
+		9F05169525BA33F500E45EBB /* NetworkingProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F05169425BA33F500E45EBB /* NetworkingProtocols.swift */; };
+		9F05169D25BA340D00E45EBB /* RequestMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F05169C25BA340D00E45EBB /* RequestMethod.swift */; };
+		9F0516A225BA342400E45EBB /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0516A125BA342400E45EBB /* HttpClient.swift */; };
+		9F0516A725BA344900E45EBB /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0516A625BA344900E45EBB /* APIError.swift */; };
+		9F0516AC25BA348A00E45EBB /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0516AB25BA348A00E45EBB /* HttpRequest.swift */; };
+		9F0516B925BA34DD00E45EBB /* HttpClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0516B825BA34DD00E45EBB /* HttpClientTests.swift */; };
+		9F0516CD25BA377000E45EBB /* HttpRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0516CC25BA377000E45EBB /* HttpRequestTests.swift */; };
+		9F0516D225BA385C00E45EBB /* APIErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0516D125BA385C00E45EBB /* APIErrorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,13 +52,20 @@
 		9F05162425BA1F5200E45EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F05162625BA1F5200E45EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F05162B25BA1F5200E45EBB /* TravelAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F05162F25BA1F5200E45EBB /* TravelAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelAppTests.swift; sourceTree = "<group>"; };
 		9F05163125BA1F5200E45EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F05163625BA1F5200E45EBB /* TravelAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F05163A25BA1F5200E45EBB /* TravelAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelAppUITests.swift; sourceTree = "<group>"; };
 		9F05163C25BA1F5200E45EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F05166025BA238B00E45EBB /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		9F05166525BA240000E45EBB /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		9F05169425BA33F500E45EBB /* NetworkingProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingProtocols.swift; sourceTree = "<group>"; };
+		9F05169C25BA340D00E45EBB /* RequestMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestMethod.swift; sourceTree = "<group>"; };
+		9F0516A125BA342400E45EBB /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		9F0516A625BA344900E45EBB /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		9F0516AB25BA348A00E45EBB /* HttpRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
+		9F0516B825BA34DD00E45EBB /* HttpClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClientTests.swift; sourceTree = "<group>"; };
+		9F0516CC25BA377000E45EBB /* HttpRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequestTests.swift; sourceTree = "<group>"; };
+		9F0516D125BA385C00E45EBB /* APIErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIErrorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +119,7 @@
 		9F05161725BA1F5000E45EBB /* TravelApp */ = {
 			isa = PBXGroup;
 			children = (
+				9F05169325BA33DB00E45EBB /* Networking */,
 				9F05165E25BA234200E45EBB /* SearchView */,
 				9F05165A25BA231600E45EBB /* Resource */,
 			);
@@ -114,7 +129,7 @@
 		9F05162E25BA1F5200E45EBB /* TravelAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				9F05162F25BA1F5200E45EBB /* TravelAppTests.swift */,
+				9F0516B025BA34A000E45EBB /* Networking */,
 				9F05163125BA1F5200E45EBB /* Info.plist */,
 			);
 			path = TravelAppTests;
@@ -156,6 +171,28 @@
 				9F05166025BA238B00E45EBB /* AppCoordinator.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		9F05169325BA33DB00E45EBB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				9F05169425BA33F500E45EBB /* NetworkingProtocols.swift */,
+				9F05169C25BA340D00E45EBB /* RequestMethod.swift */,
+				9F0516A125BA342400E45EBB /* HttpClient.swift */,
+				9F0516A625BA344900E45EBB /* APIError.swift */,
+				9F0516AB25BA348A00E45EBB /* HttpRequest.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		9F0516B025BA34A000E45EBB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				9F0516B825BA34DD00E45EBB /* HttpClientTests.swift */,
+				9F0516CC25BA377000E45EBB /* HttpRequestTests.swift */,
+				9F0516D125BA385C00E45EBB /* APIErrorTests.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +270,7 @@
 					};
 					9F05162A25BA1F5200E45EBB = {
 						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
 						TestTargetID = 9F05161425BA1F5000E45EBB;
 					};
 					9F05163525BA1F5200E45EBB = {
@@ -298,7 +336,12 @@
 			files = (
 				9F05166125BA238B00E45EBB /* AppCoordinator.swift in Sources */,
 				9F05161925BA1F5000E45EBB /* AppDelegate.swift in Sources */,
+				9F05169525BA33F500E45EBB /* NetworkingProtocols.swift in Sources */,
 				9F05166625BA240000E45EBB /* SearchViewController.swift in Sources */,
+				9F0516A225BA342400E45EBB /* HttpClient.swift in Sources */,
+				9F0516AC25BA348A00E45EBB /* HttpRequest.swift in Sources */,
+				9F0516A725BA344900E45EBB /* APIError.swift in Sources */,
+				9F05169D25BA340D00E45EBB /* RequestMethod.swift in Sources */,
 				9F05161B25BA1F5000E45EBB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,7 +350,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F05163025BA1F5200E45EBB /* TravelAppTests.swift in Sources */,
+				9F0516D225BA385C00E45EBB /* APIErrorTests.swift in Sources */,
+				9F0516B925BA34DD00E45EBB /* HttpClientTests.swift in Sources */,
+				9F0516CD25BA377000E45EBB /* HttpRequestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +552,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MD42R8FHUC;
 				INFOPLIST_FILE = TravelAppTests/Info.plist;
@@ -518,6 +564,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.btas.TravelAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelApp.app/TravelApp";
@@ -529,6 +577,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MD42R8FHUC;
 				INFOPLIST_FILE = TravelAppTests/Info.plist;
@@ -540,6 +589,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.btas.TravelAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelApp.app/TravelApp";
