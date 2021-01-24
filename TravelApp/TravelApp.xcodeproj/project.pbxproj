@@ -34,6 +34,19 @@
 		9F05170825BA428D00E45EBB /* SearchRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F05170725BA428D00E45EBB /* SearchRepositoryTests.swift */; };
 		9F05171125BA432A00E45EBB /* MockNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F05171025BA432A00E45EBB /* MockNetworking.swift */; };
 		9F05171925BA443D00E45EBB /* MockConnectionsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F05171825BA443D00E45EBB /* MockConnectionsList.swift */; };
+		9F05172325BA5CA700E45EBB /* CityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F05172225BA5CA700E45EBB /* CityCell.swift */; };
+		9F05172B25BA5E0C00E45EBB /* CitiesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F05172A25BA5E0C00E45EBB /* CitiesDataSource.swift */; };
+		9F05173325BA601500E45EBB /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F05173225BA601500E45EBB /* SearchView.swift */; };
+		9F05173825BA602100E45EBB /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F05173725BA602100E45EBB /* SearchViewModel.swift */; };
+		9FC17EE725BBB78B008E0998 /* TravelStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17EE625BBB78B008E0998 /* TravelStrings.swift */; };
+		9FC17EEF25BBB79D008E0998 /* TravelStrings.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FC17EEE25BBB79D008E0998 /* TravelStrings.strings */; };
+		9FC17EF625BBBD71008E0998 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17EF525BBBD71008E0998 /* CustomTextField.swift */; };
+		9FC17EFC25BBC67F008E0998 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17EFB25BBC67F008E0998 /* LoadingView.swift */; };
+		9FC17F0425BCAF31008E0998 /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F0325BCAF31008E0998 /* SearchPresenter.swift */; };
+		9FC17F0B25BCF229008E0998 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F0A25BCF229008E0998 /* City.swift */; };
+		9FC17F1025BCF2FB008E0998 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F0F25BCF2FB008E0998 /* Trip.swift */; };
+		9FC17F1525BCF324008E0998 /* TravelManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F1425BCF324008E0998 /* TravelManagerProtocol.swift */; };
+		9FC17F1A25BCF3EF008E0998 /* TravelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F1925BCF3EF008E0998 /* TravelManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +97,19 @@
 		9F05170725BA428D00E45EBB /* SearchRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositoryTests.swift; sourceTree = "<group>"; };
 		9F05171025BA432A00E45EBB /* MockNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworking.swift; sourceTree = "<group>"; };
 		9F05171825BA443D00E45EBB /* MockConnectionsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockConnectionsList.swift; sourceTree = "<group>"; };
+		9F05172225BA5CA700E45EBB /* CityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCell.swift; sourceTree = "<group>"; };
+		9F05172A25BA5E0C00E45EBB /* CitiesDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesDataSource.swift; sourceTree = "<group>"; };
+		9F05173225BA601500E45EBB /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		9F05173725BA602100E45EBB /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		9FC17EE625BBB78B008E0998 /* TravelStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelStrings.swift; sourceTree = "<group>"; };
+		9FC17EEE25BBB79D008E0998 /* TravelStrings.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = TravelStrings.strings; sourceTree = "<group>"; };
+		9FC17EF525BBBD71008E0998 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		9FC17EFB25BBC67F008E0998 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		9FC17F0325BCAF31008E0998 /* SearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPresenter.swift; sourceTree = "<group>"; };
+		9FC17F0A25BCF229008E0998 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		9FC17F0F25BCF2FB008E0998 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		9FC17F1425BCF324008E0998 /* TravelManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelManagerProtocol.swift; sourceTree = "<group>"; };
+		9FC17F1925BCF3EF008E0998 /* TravelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +163,8 @@
 		9F05161725BA1F5000E45EBB /* TravelApp */ = {
 			isa = PBXGroup;
 			children = (
+				9FC17F0825BCF1C0008E0998 /* TravelManager */,
+				9FC17EF325BBBD01008E0998 /* Helper */,
 				9F05169325BA33DB00E45EBB /* Networking */,
 				9F05165E25BA234200E45EBB /* SearchView */,
 				9F05165A25BA231600E45EBB /* Resource */,
@@ -167,6 +195,7 @@
 		9F05165A25BA231600E45EBB /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				9FC17EE525BBB770008E0998 /* Strings */,
 				9F05165F25BA236D00E45EBB /* App */,
 				9F05162125BA1F5200E45EBB /* Assets.xcassets */,
 				9F05162325BA1F5200E45EBB /* LaunchScreen.storyboard */,
@@ -177,9 +206,11 @@
 		9F05165E25BA234200E45EBB /* SearchView */ = {
 			isa = PBXGroup;
 			children = (
+				9F05172125BA5C8A00E45EBB /* View */,
 				9F05166525BA240000E45EBB /* SearchViewController.swift */,
 				9F0516FC25BA3FF400E45EBB /* SearchRepository.swift */,
 				9F05170125BA40A600E45EBB /* SearchProtocols.swift */,
+				9FC17F0325BCAF31008E0998 /* SearchPresenter.swift */,
 			);
 			path = SearchView;
 			sourceTree = "<group>";
@@ -260,6 +291,70 @@
 				9F05171825BA443D00E45EBB /* MockConnectionsList.swift */,
 			);
 			path = Mocks;
+			sourceTree = "<group>";
+		};
+		9F05172125BA5C8A00E45EBB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F05172225BA5CA700E45EBB /* CityCell.swift */,
+				9F05172A25BA5E0C00E45EBB /* CitiesDataSource.swift */,
+				9F05173225BA601500E45EBB /* SearchView.swift */,
+				9F05173725BA602100E45EBB /* SearchViewModel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9FC17EE525BBB770008E0998 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				9FC17EE625BBB78B008E0998 /* TravelStrings.swift */,
+				9FC17EEE25BBB79D008E0998 /* TravelStrings.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		9FC17EF325BBBD01008E0998 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9FC17EFA25BBC65F008E0998 /* LoadingView */,
+				9FC17EF425BBBD06008E0998 /* CustomTextField */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		9FC17EF425BBBD06008E0998 /* CustomTextField */ = {
+			isa = PBXGroup;
+			children = (
+				9FC17EF525BBBD71008E0998 /* CustomTextField.swift */,
+			);
+			path = CustomTextField;
+			sourceTree = "<group>";
+		};
+		9FC17EFA25BBC65F008E0998 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				9FC17EFB25BBC67F008E0998 /* LoadingView.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		9FC17F0825BCF1C0008E0998 /* TravelManager */ = {
+			isa = PBXGroup;
+			children = (
+				9FC17F0925BCF216008E0998 /* Models */,
+				9FC17F1425BCF324008E0998 /* TravelManagerProtocol.swift */,
+				9FC17F1925BCF3EF008E0998 /* TravelManager.swift */,
+			);
+			path = TravelManager;
+			sourceTree = "<group>";
+		};
+		9FC17F0925BCF216008E0998 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9FC17F0A25BCF229008E0998 /* City.swift */,
+				9FC17F0F25BCF2FB008E0998 /* Trip.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -376,6 +471,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F05162525BA1F5200E45EBB /* LaunchScreen.storyboard in Resources */,
+				9FC17EEF25BBB79D008E0998 /* TravelStrings.strings in Resources */,
 				9F05162225BA1F5200E45EBB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,15 +497,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FC17F0425BCAF31008E0998 /* SearchPresenter.swift in Sources */,
 				9F05166125BA238B00E45EBB /* AppCoordinator.swift in Sources */,
 				9F05161925BA1F5000E45EBB /* AppDelegate.swift in Sources */,
+				9FC17EE725BBB78B008E0998 /* TravelStrings.swift in Sources */,
+				9FC17F0B25BCF229008E0998 /* City.swift in Sources */,
+				9FC17F1A25BCF3EF008E0998 /* TravelManager.swift in Sources */,
+				9F05172325BA5CA700E45EBB /* CityCell.swift in Sources */,
+				9FC17EF625BBBD71008E0998 /* CustomTextField.swift in Sources */,
+				9FC17EFC25BBC67F008E0998 /* LoadingView.swift in Sources */,
+				9F05172B25BA5E0C00E45EBB /* CitiesDataSource.swift in Sources */,
 				9F05169525BA33F500E45EBB /* NetworkingProtocols.swift in Sources */,
 				9F0516DE25BA3B5500E45EBB /* Connection.swift in Sources */,
+				9F05173825BA602100E45EBB /* SearchViewModel.swift in Sources */,
+				9FC17F1025BCF2FB008E0998 /* Trip.swift in Sources */,
+				9F05173325BA601500E45EBB /* SearchView.swift in Sources */,
 				9F0516EC25BA3CED00E45EBB /* ConnectionsEndpoint.swift in Sources */,
 				9F05166625BA240000E45EBB /* SearchViewController.swift in Sources */,
 				9F0516FD25BA3FF400E45EBB /* SearchRepository.swift in Sources */,
 				9F0516E625BA3C7800E45EBB /* ConnectionsList.swift in Sources */,
 				9F0516A225BA342400E45EBB /* HttpClient.swift in Sources */,
+				9FC17F1525BCF324008E0998 /* TravelManagerProtocol.swift in Sources */,
 				9F05170225BA40A600E45EBB /* SearchProtocols.swift in Sources */,
 				9F0516AC25BA348A00E45EBB /* HttpRequest.swift in Sources */,
 				9F0516A725BA344900E45EBB /* APIError.swift in Sources */,

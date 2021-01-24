@@ -1,0 +1,17 @@
+/* 
+  TravelStrings.strings
+  TravelApp
+
+  Created by Barbara Souza on 22/01/21.
+  
+*/
+"departure" = "departure";
+"arrival" = "arrival";
+"loadingMessage" = "Looking for flights";
+"appName" = "TravelApp";
+"enterCity" = "Enter city";
+"search" =  "search";
+"flightError" = "We did not find flights for this route.";
+"tryAgain" = "Try Again";
+"errorTitle" = "Something is wrong";
+"confirm" = "Ok";
