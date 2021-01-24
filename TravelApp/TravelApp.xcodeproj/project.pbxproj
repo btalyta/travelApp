@@ -53,6 +53,10 @@
 		9FC17F3B25BD1032008E0998 /* CitiesDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F3A25BD1032008E0998 /* CitiesDataSourceTests.swift */; };
 		9FC17F4025BD11DB008E0998 /* MockCities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F3F25BD11DB008E0998 /* MockCities.swift */; };
 		9FC17F4525BD1727008E0998 /* SearchViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F4425BD1727008E0998 /* SearchViewTests.swift */; };
+		9FC17F4D25BD1B7A008E0998 /* SearchPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F4C25BD1B7A008E0998 /* SearchPresenterTests.swift */; };
+		9FC17F5225BD1CA6008E0998 /* MockSearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F5125BD1CA6008E0998 /* MockSearchRepository.swift */; };
+		9FC17F5725BD1E3E008E0998 /* MockSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F5625BD1E3E008E0998 /* MockSearchViewController.swift */; };
+		9FC17F5C25BDB855008E0998 /* MockTravelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F5B25BDB855008E0998 /* MockTravelManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +126,10 @@
 		9FC17F3A25BD1032008E0998 /* CitiesDataSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesDataSourceTests.swift; sourceTree = "<group>"; };
 		9FC17F3F25BD11DB008E0998 /* MockCities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCities.swift; sourceTree = "<group>"; };
 		9FC17F4425BD1727008E0998 /* SearchViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewTests.swift; sourceTree = "<group>"; };
+		9FC17F4C25BD1B7A008E0998 /* SearchPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPresenterTests.swift; sourceTree = "<group>"; };
+		9FC17F5125BD1CA6008E0998 /* MockSearchRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSearchRepository.swift; sourceTree = "<group>"; };
+		9FC17F5625BD1E3E008E0998 /* MockSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSearchViewController.swift; sourceTree = "<group>"; };
+		9FC17F5B25BDB855008E0998 /* MockTravelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTravelManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -294,6 +302,7 @@
 			children = (
 				9FC17F3125BD0ED9008E0998 /* View */,
 				9F05170725BA428D00E45EBB /* SearchRepositoryTests.swift */,
+				9FC17F4C25BD1B7A008E0998 /* SearchPresenterTests.swift */,
 			);
 			path = SearchView;
 			sourceTree = "<group>";
@@ -304,6 +313,9 @@
 				9F05171025BA432A00E45EBB /* MockNetworking.swift */,
 				9F05171825BA443D00E45EBB /* MockConnectionsList.swift */,
 				9FC17F3F25BD11DB008E0998 /* MockCities.swift */,
+				9FC17F5125BD1CA6008E0998 /* MockSearchRepository.swift */,
+				9FC17F5625BD1E3E008E0998 /* MockSearchViewController.swift */,
+				9FC17F5B25BDB855008E0998 /* MockTravelManager.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -580,15 +592,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FC17F5225BD1CA6008E0998 /* MockSearchRepository.swift in Sources */,
 				9F0516F225BA3D7900E45EBB /* ConnectionsEndpointTests.swift in Sources */,
 				9F0516D225BA385C00E45EBB /* APIErrorTests.swift in Sources */,
 				9F0516B925BA34DD00E45EBB /* HttpClientTests.swift in Sources */,
 				9F05171125BA432A00E45EBB /* MockNetworking.swift in Sources */,
+				9FC17F4D25BD1B7A008E0998 /* SearchPresenterTests.swift in Sources */,
 				9FC17F3B25BD1032008E0998 /* CitiesDataSourceTests.swift in Sources */,
 				9FC17F3325BD0EE7008E0998 /* CityCellTests.swift in Sources */,
+				9FC17F5725BD1E3E008E0998 /* MockSearchViewController.swift in Sources */,
 				9FC17F2525BD0A4B008E0998 /* CustomTextFieldTests.swift in Sources */,
 				9F0516CD25BA377000E45EBB /* HttpRequestTests.swift in Sources */,
 				9FC17F4525BD1727008E0998 /* SearchViewTests.swift in Sources */,
+				9FC17F5C25BDB855008E0998 /* MockTravelManager.swift in Sources */,
 				9F05170825BA428D00E45EBB /* SearchRepositoryTests.swift in Sources */,
 				9FC17F2D25BD0DB6008E0998 /* LoadingViewTests.swift in Sources */,
 				9FC17F4025BD11DB008E0998 /* MockCities.swift in Sources */,

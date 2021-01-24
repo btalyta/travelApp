@@ -50,7 +50,7 @@ class SearchPresenter: SearchPresenterProtocol {
     private func dataHandler(_ data: [Connection]) {
         for connection in data {
             let departureCity = travelManager.createConection(city: City(name: connection.from,
-                                                                          location: connection.coordinates.from))
+                                                                         location: connection.coordinates.from))
             let arrivalCity = City(name: connection.to,
                                    location: connection.coordinates.to)
 
@@ -110,7 +110,8 @@ class SearchPresenter: SearchPresenterProtocol {
     func wantsSearch() {
         guard let departure = departure,
               let arrival = arrival,
-              let route = travelManager.findRoute(from: departure, to: arrival) else {
+              let route = travelManager.findRoute(from: departure, to: arrival),
+              route.count > 0 else {
             viewController?.showError(message: TravelStrings.flightError, retry: false)
             return
         }
