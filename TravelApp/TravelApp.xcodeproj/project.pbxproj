@@ -61,6 +61,7 @@
 		9FC17F6625BDC7A4008E0998 /* Mock SearchViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F6525BDC7A4008E0998 /* Mock SearchViewControllerDelegate.swift */; };
 		9FC17F6B25BDC81B008E0998 /* MockSearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F6A25BDC81B008E0998 /* MockSearchPresenter.swift */; };
 		9FC17F7225BDCE89008E0998 /* AppCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F7125BDCE89008E0998 /* AppCoordinatorTests.swift */; };
+		9FC17F7B25BDD06D008E0998 /* TravelManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F7A25BDD06D008E0998 /* TravelManagerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -138,6 +139,7 @@
 		9FC17F6525BDC7A4008E0998 /* Mock SearchViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mock SearchViewControllerDelegate.swift"; sourceTree = "<group>"; };
 		9FC17F6A25BDC81B008E0998 /* MockSearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSearchPresenter.swift; sourceTree = "<group>"; };
 		9FC17F7125BDCE89008E0998 /* AppCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorTests.swift; sourceTree = "<group>"; };
+		9FC17F7A25BDD06D008E0998 /* TravelManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelManagerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +205,7 @@
 		9F05162E25BA1F5200E45EBB /* TravelAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				9FC17F7925BDD03C008E0998 /* TravelManager */,
 				9FC17F6F25BDCE72008E0998 /* Resource */,
 				9FC17F2125BD0A2B008E0998 /* Helper */,
 				9F05170F25BA431900E45EBB /* Mocks */,
@@ -447,6 +450,14 @@
 			path = App;
 			sourceTree = "<group>";
 		};
+		9FC17F7925BDD03C008E0998 /* TravelManager */ = {
+			isa = PBXGroup;
+			children = (
+				9FC17F7A25BDD06D008E0998 /* TravelManagerTests.swift */,
+			);
+			path = TravelManager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -625,6 +636,7 @@
 				9F0516F225BA3D7900E45EBB /* ConnectionsEndpointTests.swift in Sources */,
 				9F0516D225BA385C00E45EBB /* APIErrorTests.swift in Sources */,
 				9FC17F6625BDC7A4008E0998 /* Mock SearchViewControllerDelegate.swift in Sources */,
+				9FC17F7B25BDD06D008E0998 /* TravelManagerTests.swift in Sources */,
 				9F0516B925BA34DD00E45EBB /* HttpClientTests.swift in Sources */,
 				9F05171125BA432A00E45EBB /* MockNetworking.swift in Sources */,
 				9FC17F4D25BD1B7A008E0998 /* SearchPresenterTests.swift in Sources */,
