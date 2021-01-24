@@ -49,6 +49,7 @@
 		9FC17F1A25BCF3EF008E0998 /* TravelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F1925BCF3EF008E0998 /* TravelManager.swift */; };
 		9FC17F2525BD0A4B008E0998 /* CustomTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F2425BD0A4B008E0998 /* CustomTextFieldTests.swift */; };
 		9FC17F2D25BD0DB6008E0998 /* LoadingViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F2C25BD0DB6008E0998 /* LoadingViewTests.swift */; };
+		9FC17F3325BD0EE7008E0998 /* CityCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F3225BD0EE7008E0998 /* CityCellTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +115,7 @@
 		9FC17F1925BCF3EF008E0998 /* TravelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelManager.swift; sourceTree = "<group>"; };
 		9FC17F2425BD0A4B008E0998 /* CustomTextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldTests.swift; sourceTree = "<group>"; };
 		9FC17F2C25BD0DB6008E0998 /* LoadingViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewTests.swift; sourceTree = "<group>"; };
+		9FC17F3225BD0EE7008E0998 /* CityCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCellTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -284,6 +286,7 @@
 		9F05170625BA426F00E45EBB /* SearchView */ = {
 			isa = PBXGroup;
 			children = (
+				9FC17F3125BD0ED9008E0998 /* View */,
 				9F05170725BA428D00E45EBB /* SearchRepositoryTests.swift */,
 			);
 			path = SearchView;
@@ -385,6 +388,14 @@
 				9FC17F2425BD0A4B008E0998 /* CustomTextFieldTests.swift */,
 			);
 			path = CustomTextField;
+			sourceTree = "<group>";
+		};
+		9FC17F3125BD0ED9008E0998 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9FC17F3225BD0EE7008E0998 /* CityCellTests.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -564,6 +575,7 @@
 				9F0516D225BA385C00E45EBB /* APIErrorTests.swift in Sources */,
 				9F0516B925BA34DD00E45EBB /* HttpClientTests.swift in Sources */,
 				9F05171125BA432A00E45EBB /* MockNetworking.swift in Sources */,
+				9FC17F3325BD0EE7008E0998 /* CityCellTests.swift in Sources */,
 				9FC17F2525BD0A4B008E0998 /* CustomTextFieldTests.swift in Sources */,
 				9F0516CD25BA377000E45EBB /* HttpRequestTests.swift in Sources */,
 				9F05170825BA428D00E45EBB /* SearchRepositoryTests.swift in Sources */,
