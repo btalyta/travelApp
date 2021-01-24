@@ -12,6 +12,9 @@ final class MockConnectionsList {
                                         [Connection(from: "London", to: "Tokyo", price: 220,
                                                     coordinates: Coordinates(from: Location(lat: 51.5285582, long: -0.241681),
                                                                              to: Location(lat: 35.652832, long: 139.839478))),
+                                         Connection(from: "London", to: "Porto", price: 50,
+                                                     coordinates: Coordinates(from: Location(lat: 51.5285582, long: -0.241681),
+                                                                              to: Location(lat: 41.14961, long: -8.61099))),
                                          Connection(from: "Tokyo", to: "London", price: 200,
                                                      coordinates: Coordinates(from: Location(lat: 35.652832, long: 139.839478),
                                                                               to: Location(lat: 51.5285582, long: -0.241681)))

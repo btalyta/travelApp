@@ -19,7 +19,7 @@ struct Coordinates: Decodable, Equatable {
     let to: Location
 }
 
-struct Location: Decodable, Equatable {
+struct Location: Decodable, Equatable, Hashable {
     let lat: Double
     let long: Double
 }
