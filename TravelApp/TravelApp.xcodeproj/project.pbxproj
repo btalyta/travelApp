@@ -60,6 +60,7 @@
 		9FC17F6125BDC741008E0998 /* SearchViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F6025BDC741008E0998 /* SearchViewControllerTests.swift */; };
 		9FC17F6625BDC7A4008E0998 /* Mock SearchViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F6525BDC7A4008E0998 /* Mock SearchViewControllerDelegate.swift */; };
 		9FC17F6B25BDC81B008E0998 /* MockSearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F6A25BDC81B008E0998 /* MockSearchPresenter.swift */; };
+		9FC17F7225BDCE89008E0998 /* AppCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F7125BDCE89008E0998 /* AppCoordinatorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,6 +137,7 @@
 		9FC17F6025BDC741008E0998 /* SearchViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewControllerTests.swift; sourceTree = "<group>"; };
 		9FC17F6525BDC7A4008E0998 /* Mock SearchViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mock SearchViewControllerDelegate.swift"; sourceTree = "<group>"; };
 		9FC17F6A25BDC81B008E0998 /* MockSearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSearchPresenter.swift; sourceTree = "<group>"; };
+		9FC17F7125BDCE89008E0998 /* AppCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +203,7 @@
 		9F05162E25BA1F5200E45EBB /* TravelAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				9FC17F6F25BDCE72008E0998 /* Resource */,
 				9FC17F2125BD0A2B008E0998 /* Helper */,
 				9F05170F25BA431900E45EBB /* Mocks */,
 				9F05170625BA426F00E45EBB /* SearchView */,
@@ -428,6 +431,22 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		9FC17F6F25BDCE72008E0998 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9FC17F7025BDCE77008E0998 /* App */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		9FC17F7025BDCE77008E0998 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9FC17F7125BDCE89008E0998 /* AppCoordinatorTests.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -621,6 +640,7 @@
 				9FC17F2D25BD0DB6008E0998 /* LoadingViewTests.swift in Sources */,
 				9FC17F4025BD11DB008E0998 /* MockCities.swift in Sources */,
 				9F05171925BA443D00E45EBB /* MockConnectionsList.swift in Sources */,
+				9FC17F7225BDCE89008E0998 /* AppCoordinatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
