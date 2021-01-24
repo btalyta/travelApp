@@ -62,6 +62,16 @@
 		9FC17F6B25BDC81B008E0998 /* MockSearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F6A25BDC81B008E0998 /* MockSearchPresenter.swift */; };
 		9FC17F7225BDCE89008E0998 /* AppCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F7125BDCE89008E0998 /* AppCoordinatorTests.swift */; };
 		9FC17F7B25BDD06D008E0998 /* TravelManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F7A25BDD06D008E0998 /* TravelManagerTests.swift */; };
+		9FC17F8B25BDD8E2008E0998 /* RouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F8A25BDD8E2008E0998 /* RouteView.swift */; };
+		9FC17F9025BDD8F3008E0998 /* RouteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F8F25BDD8F3008E0998 /* RouteViewModel.swift */; };
+		9FC17F9525BDE43B008E0998 /* RouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F9425BDE43B008E0998 /* RouteViewController.swift */; };
+		9FC17F9A25BDE44C008E0998 /* RoutePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F9925BDE44C008E0998 /* RoutePresenter.swift */; };
+		9FC17F9F25BDE45D008E0998 /* RouteProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F9E25BDE45D008E0998 /* RouteProtocols.swift */; };
+		9FC17FA625BDFC47008E0998 /* RouteViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17FA525BDFC47008E0998 /* RouteViewTests.swift */; };
+		9FC17FAE25BDFE32008E0998 /* RoutePresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17FAD25BDFE32008E0998 /* RoutePresenterTest.swift */; };
+		9FC17FB325BDFE69008E0998 /* MockRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17FB225BDFE69008E0998 /* MockRouteViewController.swift */; };
+		9FC17FB825BE01DD008E0998 /* RouteViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17FB725BE01DD008E0998 /* RouteViewControllerTests.swift */; };
+		9FC17FBD25BE021D008E0998 /* MockRoutePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17FBC25BE021D008E0998 /* MockRoutePresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,6 +150,16 @@
 		9FC17F6A25BDC81B008E0998 /* MockSearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSearchPresenter.swift; sourceTree = "<group>"; };
 		9FC17F7125BDCE89008E0998 /* AppCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorTests.swift; sourceTree = "<group>"; };
 		9FC17F7A25BDD06D008E0998 /* TravelManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelManagerTests.swift; sourceTree = "<group>"; };
+		9FC17F8A25BDD8E2008E0998 /* RouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteView.swift; sourceTree = "<group>"; };
+		9FC17F8F25BDD8F3008E0998 /* RouteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteViewModel.swift; sourceTree = "<group>"; };
+		9FC17F9425BDE43B008E0998 /* RouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteViewController.swift; sourceTree = "<group>"; };
+		9FC17F9925BDE44C008E0998 /* RoutePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutePresenter.swift; sourceTree = "<group>"; };
+		9FC17F9E25BDE45D008E0998 /* RouteProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteProtocols.swift; sourceTree = "<group>"; };
+		9FC17FA525BDFC47008E0998 /* RouteViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteViewTests.swift; sourceTree = "<group>"; };
+		9FC17FAD25BDFE32008E0998 /* RoutePresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutePresenterTest.swift; sourceTree = "<group>"; };
+		9FC17FB225BDFE69008E0998 /* MockRouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRouteViewController.swift; sourceTree = "<group>"; };
+		9FC17FB725BE01DD008E0998 /* RouteViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteViewControllerTests.swift; sourceTree = "<group>"; };
+		9FC17FBC25BE021D008E0998 /* MockRoutePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRoutePresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +213,7 @@
 		9F05161725BA1F5000E45EBB /* TravelApp */ = {
 			isa = PBXGroup;
 			children = (
+				9FC17F8825BDD864008E0998 /* RouteView */,
 				9FC17F0825BCF1C0008E0998 /* TravelManager */,
 				9FC17EF325BBBD01008E0998 /* Helper */,
 				9F05169325BA33DB00E45EBB /* Networking */,
@@ -205,6 +226,7 @@
 		9F05162E25BA1F5200E45EBB /* TravelAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				9FC17FA325BDFC32008E0998 /* RouteView */,
 				9FC17F7925BDD03C008E0998 /* TravelManager */,
 				9FC17F6F25BDCE72008E0998 /* Resource */,
 				9FC17F2125BD0A2B008E0998 /* Helper */,
@@ -331,6 +353,8 @@
 				9FC17F5B25BDB855008E0998 /* MockTravelManager.swift */,
 				9FC17F6525BDC7A4008E0998 /* Mock SearchViewControllerDelegate.swift */,
 				9FC17F6A25BDC81B008E0998 /* MockSearchPresenter.swift */,
+				9FC17FB225BDFE69008E0998 /* MockRouteViewController.swift */,
+				9FC17FBC25BE021D008E0998 /* MockRoutePresenter.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -456,6 +480,44 @@
 				9FC17F7A25BDD06D008E0998 /* TravelManagerTests.swift */,
 			);
 			path = TravelManager;
+			sourceTree = "<group>";
+		};
+		9FC17F8825BDD864008E0998 /* RouteView */ = {
+			isa = PBXGroup;
+			children = (
+				9FC17F8925BDD8D4008E0998 /* View */,
+				9FC17F9425BDE43B008E0998 /* RouteViewController.swift */,
+				9FC17F9925BDE44C008E0998 /* RoutePresenter.swift */,
+				9FC17F9E25BDE45D008E0998 /* RouteProtocols.swift */,
+			);
+			path = RouteView;
+			sourceTree = "<group>";
+		};
+		9FC17F8925BDD8D4008E0998 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9FC17F8A25BDD8E2008E0998 /* RouteView.swift */,
+				9FC17F8F25BDD8F3008E0998 /* RouteViewModel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9FC17FA325BDFC32008E0998 /* RouteView */ = {
+			isa = PBXGroup;
+			children = (
+				9FC17FA425BDFC38008E0998 /* View */,
+				9FC17FAD25BDFE32008E0998 /* RoutePresenterTest.swift */,
+				9FC17FB725BE01DD008E0998 /* RouteViewControllerTests.swift */,
+			);
+			path = RouteView;
+			sourceTree = "<group>";
+		};
+		9FC17FA425BDFC38008E0998 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9FC17FA525BDFC47008E0998 /* RouteViewTests.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -600,6 +662,7 @@
 			files = (
 				9FC17F0425BCAF31008E0998 /* SearchPresenter.swift in Sources */,
 				9F05166125BA238B00E45EBB /* AppCoordinator.swift in Sources */,
+				9FC17F9025BDD8F3008E0998 /* RouteViewModel.swift in Sources */,
 				9F05161925BA1F5000E45EBB /* AppDelegate.swift in Sources */,
 				9FC17EE725BBB78B008E0998 /* TravelStrings.swift in Sources */,
 				9FC17F0B25BCF229008E0998 /* City.swift in Sources */,
@@ -620,9 +683,13 @@
 				9F0516A225BA342400E45EBB /* HttpClient.swift in Sources */,
 				9FC17F1525BCF324008E0998 /* TravelManagerProtocol.swift in Sources */,
 				9F05170225BA40A600E45EBB /* SearchProtocols.swift in Sources */,
+				9FC17F9F25BDE45D008E0998 /* RouteProtocols.swift in Sources */,
 				9F0516AC25BA348A00E45EBB /* HttpRequest.swift in Sources */,
+				9FC17F9525BDE43B008E0998 /* RouteViewController.swift in Sources */,
 				9F0516A725BA344900E45EBB /* APIError.swift in Sources */,
 				9F05169D25BA340D00E45EBB /* RequestMethod.swift in Sources */,
+				9FC17F8B25BDD8E2008E0998 /* RouteView.swift in Sources */,
+				9FC17F9A25BDE44C008E0998 /* RoutePresenter.swift in Sources */,
 				9F05161B25BA1F5000E45EBB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -632,10 +699,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FC17F6B25BDC81B008E0998 /* MockSearchPresenter.swift in Sources */,
+				9FC17FA625BDFC47008E0998 /* RouteViewTests.swift in Sources */,
 				9FC17F5225BD1CA6008E0998 /* MockSearchRepository.swift in Sources */,
 				9F0516F225BA3D7900E45EBB /* ConnectionsEndpointTests.swift in Sources */,
 				9F0516D225BA385C00E45EBB /* APIErrorTests.swift in Sources */,
 				9FC17F6625BDC7A4008E0998 /* Mock SearchViewControllerDelegate.swift in Sources */,
+				9FC17FBD25BE021D008E0998 /* MockRoutePresenter.swift in Sources */,
+				9FC17FB825BE01DD008E0998 /* RouteViewControllerTests.swift in Sources */,
+				9FC17FB325BDFE69008E0998 /* MockRouteViewController.swift in Sources */,
 				9FC17F7B25BDD06D008E0998 /* TravelManagerTests.swift in Sources */,
 				9F0516B925BA34DD00E45EBB /* HttpClientTests.swift in Sources */,
 				9F05171125BA432A00E45EBB /* MockNetworking.swift in Sources */,
@@ -648,6 +719,7 @@
 				9FC17F4525BD1727008E0998 /* SearchViewTests.swift in Sources */,
 				9FC17F5C25BDB855008E0998 /* MockTravelManager.swift in Sources */,
 				9F05170825BA428D00E45EBB /* SearchRepositoryTests.swift in Sources */,
+				9FC17FAE25BDFE32008E0998 /* RoutePresenterTest.swift in Sources */,
 				9FC17F6125BDC741008E0998 /* SearchViewControllerTests.swift in Sources */,
 				9FC17F2D25BD0DB6008E0998 /* LoadingViewTests.swift in Sources */,
 				9FC17F4025BD11DB008E0998 /* MockCities.swift in Sources */,

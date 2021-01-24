@@ -22,6 +22,15 @@ class AppCoordinatorTests: XCTestCase {
         XCTAssertEqual(controller?.isKind(of: SearchViewController.self), true)
     }
 
+    func test_wantsShowFlight_showsRouteViewController() {
+        setupSUT()
+
+        sut.wantsShowFlight([])
+        let controller = sut.navigationController.viewControllers.first
+
+        XCTAssertEqual(controller?.isKind(of: RouteViewController.self), true)
+    }
+
     func setupSUT() {
         window = UIWindow()
         sut = AppCoordinator(window: window, navigationController: UINavigationController())

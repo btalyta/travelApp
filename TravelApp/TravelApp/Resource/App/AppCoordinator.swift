@@ -41,6 +41,10 @@ class AppCoordinator {
 
 extension AppCoordinator: SearchViewControllerDelegate {
     func wantsShowFlight(_ flight: [Trip]) {
-        // Show next view
+        let presenter = RoutePresenter(route: flight)
+        let controller = RouteViewController(presenter: presenter)
+        presenter.viewController = controller
+
+        navigationController.pushViewController(controller, animated: true)
     }
 }
