@@ -48,6 +48,7 @@
 		9FC17F1525BCF324008E0998 /* TravelManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F1425BCF324008E0998 /* TravelManagerProtocol.swift */; };
 		9FC17F1A25BCF3EF008E0998 /* TravelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F1925BCF3EF008E0998 /* TravelManager.swift */; };
 		9FC17F2525BD0A4B008E0998 /* CustomTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F2425BD0A4B008E0998 /* CustomTextFieldTests.swift */; };
+		9FC17F2D25BD0DB6008E0998 /* LoadingViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F2C25BD0DB6008E0998 /* LoadingViewTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +113,7 @@
 		9FC17F1425BCF324008E0998 /* TravelManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelManagerProtocol.swift; sourceTree = "<group>"; };
 		9FC17F1925BCF3EF008E0998 /* TravelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelManager.swift; sourceTree = "<group>"; };
 		9FC17F2425BD0A4B008E0998 /* CustomTextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldTests.swift; sourceTree = "<group>"; };
+		9FC17F2C25BD0DB6008E0998 /* LoadingViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -372,6 +374,7 @@
 		9FC17F2225BD0A34008E0998 /* LoadingView */ = {
 			isa = PBXGroup;
 			children = (
+				9FC17F2C25BD0DB6008E0998 /* LoadingViewTests.swift */,
 			);
 			path = LoadingView;
 			sourceTree = "<group>";
@@ -564,6 +567,7 @@
 				9FC17F2525BD0A4B008E0998 /* CustomTextFieldTests.swift in Sources */,
 				9F0516CD25BA377000E45EBB /* HttpRequestTests.swift in Sources */,
 				9F05170825BA428D00E45EBB /* SearchRepositoryTests.swift in Sources */,
+				9FC17F2D25BD0DB6008E0998 /* LoadingViewTests.swift in Sources */,
 				9F05171925BA443D00E45EBB /* MockConnectionsList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
