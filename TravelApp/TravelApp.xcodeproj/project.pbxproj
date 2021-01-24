@@ -70,6 +70,8 @@
 		9FC17FA625BDFC47008E0998 /* RouteViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17FA525BDFC47008E0998 /* RouteViewTests.swift */; };
 		9FC17FAE25BDFE32008E0998 /* RoutePresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17FAD25BDFE32008E0998 /* RoutePresenterTest.swift */; };
 		9FC17FB325BDFE69008E0998 /* MockRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17FB225BDFE69008E0998 /* MockRouteViewController.swift */; };
+		9FC17FB825BE01DD008E0998 /* RouteViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17FB725BE01DD008E0998 /* RouteViewControllerTests.swift */; };
+		9FC17FBD25BE021D008E0998 /* MockRoutePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17FBC25BE021D008E0998 /* MockRoutePresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -156,6 +158,8 @@
 		9FC17FA525BDFC47008E0998 /* RouteViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteViewTests.swift; sourceTree = "<group>"; };
 		9FC17FAD25BDFE32008E0998 /* RoutePresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutePresenterTest.swift; sourceTree = "<group>"; };
 		9FC17FB225BDFE69008E0998 /* MockRouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRouteViewController.swift; sourceTree = "<group>"; };
+		9FC17FB725BE01DD008E0998 /* RouteViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteViewControllerTests.swift; sourceTree = "<group>"; };
+		9FC17FBC25BE021D008E0998 /* MockRoutePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRoutePresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -350,6 +354,7 @@
 				9FC17F6525BDC7A4008E0998 /* Mock SearchViewControllerDelegate.swift */,
 				9FC17F6A25BDC81B008E0998 /* MockSearchPresenter.swift */,
 				9FC17FB225BDFE69008E0998 /* MockRouteViewController.swift */,
+				9FC17FBC25BE021D008E0998 /* MockRoutePresenter.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -502,6 +507,7 @@
 			children = (
 				9FC17FA425BDFC38008E0998 /* View */,
 				9FC17FAD25BDFE32008E0998 /* RoutePresenterTest.swift */,
+				9FC17FB725BE01DD008E0998 /* RouteViewControllerTests.swift */,
 			);
 			path = RouteView;
 			sourceTree = "<group>";
@@ -698,6 +704,8 @@
 				9F0516F225BA3D7900E45EBB /* ConnectionsEndpointTests.swift in Sources */,
 				9F0516D225BA385C00E45EBB /* APIErrorTests.swift in Sources */,
 				9FC17F6625BDC7A4008E0998 /* Mock SearchViewControllerDelegate.swift in Sources */,
+				9FC17FBD25BE021D008E0998 /* MockRoutePresenter.swift in Sources */,
+				9FC17FB825BE01DD008E0998 /* RouteViewControllerTests.swift in Sources */,
 				9FC17FB325BDFE69008E0998 /* MockRouteViewController.swift in Sources */,
 				9FC17F7B25BDD06D008E0998 /* TravelManagerTests.swift in Sources */,
 				9F0516B925BA34DD00E45EBB /* HttpClientTests.swift in Sources */,
