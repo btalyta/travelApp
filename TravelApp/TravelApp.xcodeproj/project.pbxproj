@@ -67,6 +67,7 @@
 		9FC17F9525BDE43B008E0998 /* RouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F9425BDE43B008E0998 /* RouteViewController.swift */; };
 		9FC17F9A25BDE44C008E0998 /* RoutePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F9925BDE44C008E0998 /* RoutePresenter.swift */; };
 		9FC17F9F25BDE45D008E0998 /* RouteProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F9E25BDE45D008E0998 /* RouteProtocols.swift */; };
+		9FC17FA625BDFC47008E0998 /* RouteViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17FA525BDFC47008E0998 /* RouteViewTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -150,6 +151,7 @@
 		9FC17F9425BDE43B008E0998 /* RouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteViewController.swift; sourceTree = "<group>"; };
 		9FC17F9925BDE44C008E0998 /* RoutePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutePresenter.swift; sourceTree = "<group>"; };
 		9FC17F9E25BDE45D008E0998 /* RouteProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteProtocols.swift; sourceTree = "<group>"; };
+		9FC17FA525BDFC47008E0998 /* RouteViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteViewTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +218,7 @@
 		9F05162E25BA1F5200E45EBB /* TravelAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				9FC17FA325BDFC32008E0998 /* RouteView */,
 				9FC17F7925BDD03C008E0998 /* TravelManager */,
 				9FC17F6F25BDCE72008E0998 /* Resource */,
 				9FC17F2125BD0A2B008E0998 /* Helper */,
@@ -489,6 +492,22 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		9FC17FA325BDFC32008E0998 /* RouteView */ = {
+			isa = PBXGroup;
+			children = (
+				9FC17FA425BDFC38008E0998 /* View */,
+			);
+			path = RouteView;
+			sourceTree = "<group>";
+		};
+		9FC17FA425BDFC38008E0998 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9FC17FA525BDFC47008E0998 /* RouteViewTests.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -668,6 +687,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FC17F6B25BDC81B008E0998 /* MockSearchPresenter.swift in Sources */,
+				9FC17FA625BDFC47008E0998 /* RouteViewTests.swift in Sources */,
 				9FC17F5225BD1CA6008E0998 /* MockSearchRepository.swift in Sources */,
 				9F0516F225BA3D7900E45EBB /* ConnectionsEndpointTests.swift in Sources */,
 				9F0516D225BA385C00E45EBB /* APIErrorTests.swift in Sources */,
