@@ -22,7 +22,10 @@ class AppCoordinator {
         window?.makeKeyAndVisible()
         window?.rootViewController = navigationController
 
-        let controller = SearchViewController()
+        let presenter = SearchPresenter()
+        let controller = SearchViewController(presenter: presenter)
+        presenter.viewController = controller
+        controller.delegate = self
         navigationController.pushViewController(controller, animated: true)
     }
 
@@ -33,5 +36,11 @@ class AppCoordinator {
         navigationController.navigationBar.standardAppearance = appearance
         navigationController.navigationBar.scrollEdgeAppearance = appearance
         navigationController.navigationBar.prefersLargeTitles = true
+    }
+}
+
+extension AppCoordinator: SearchViewControllerDelegate {
+    func wantsShowFlight(_ flight: [Trip]) {
+        // Show next view
     }
 }
