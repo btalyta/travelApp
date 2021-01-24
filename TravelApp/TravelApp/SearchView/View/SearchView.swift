@@ -13,7 +13,7 @@ class SearchView: UIView {
     var didChangeArrival: ((_ city: String) -> Void)?
     var isDepartureSelected: (() -> Void)?
     var isArrivalSelected: (() -> Void)?
-    var wantsToSeach: (() -> Void)?
+    var wantsToSearch: (() -> Void)?
 
     private var bottomAnchorConstraint: NSLayoutConstraint?
     private let fromTextField: CustomTextField = {
@@ -167,7 +167,7 @@ class SearchView: UIView {
 
     @objc func searchFligth() {
         endEditing(true)
-        wantsToSeach?()
+        wantsToSearch?()
     }
 
     @objc func adjustForKeyboard(notification: Notification) {

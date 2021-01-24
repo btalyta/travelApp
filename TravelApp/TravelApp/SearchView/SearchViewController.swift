@@ -56,7 +56,7 @@ class SearchViewController: UIViewController {
             self?.presenter.didSelectArrivalInput()
         }
 
-        contentView.wantsToSeach = { [weak self] in
+        contentView.wantsToSearch = { [weak self] in
             self?.presenter.wantsSearch()
         }
     }

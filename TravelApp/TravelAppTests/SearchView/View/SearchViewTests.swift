@@ -39,15 +39,15 @@ class SearchViewTests: XCTestCase {
 
 
     func test_searchFligth_callsWantsToSeach() {
-        var wantsToSeachWasCalled = false
+        var wantsToSearchWasCalled = false
         let sut = SearchView()
 
-        sut.wantsToSeach = {
-            wantsToSeachWasCalled = true
+        sut.wantsToSearch = {
+            wantsToSearchWasCalled = true
         }
         sut.searchFligth()
 
-        XCTAssertTrue(wantsToSeachWasCalled)
+        XCTAssertTrue(wantsToSearchWasCalled)
     }
 }
 
