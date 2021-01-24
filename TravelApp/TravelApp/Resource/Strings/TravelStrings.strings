@@ -15,3 +15,6 @@
 "tryAgain" = "Try Again";
 "errorTitle" = "Something is wrong";
 "confirm" = "Ok";
+"route" =  "route";
+"price" = "price";
+"connection" = "connection";

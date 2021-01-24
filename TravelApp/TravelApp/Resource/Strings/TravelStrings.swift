@@ -25,4 +25,7 @@ class TravelStrings {
     static let tryAgain = localized(for: "tryAgain")
     static let errorTitle = localized(for: "errorTitle")
     static let confirm = localized(for: "confirm")
+    static let route = localized(for: "route")
+    static let price = localized(for: "price")
+    static let connection = localized(for: "connection")
 }
