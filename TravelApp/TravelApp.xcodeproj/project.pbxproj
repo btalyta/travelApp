@@ -47,6 +47,7 @@
 		9FC17F1025BCF2FB008E0998 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F0F25BCF2FB008E0998 /* Trip.swift */; };
 		9FC17F1525BCF324008E0998 /* TravelManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F1425BCF324008E0998 /* TravelManagerProtocol.swift */; };
 		9FC17F1A25BCF3EF008E0998 /* TravelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F1925BCF3EF008E0998 /* TravelManager.swift */; };
+		9FC17F2525BD0A4B008E0998 /* CustomTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC17F2425BD0A4B008E0998 /* CustomTextFieldTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +111,7 @@
 		9FC17F0F25BCF2FB008E0998 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
 		9FC17F1425BCF324008E0998 /* TravelManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelManagerProtocol.swift; sourceTree = "<group>"; };
 		9FC17F1925BCF3EF008E0998 /* TravelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelManager.swift; sourceTree = "<group>"; };
+		9FC17F2425BD0A4B008E0998 /* CustomTextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 		9F05162E25BA1F5200E45EBB /* TravelAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				9FC17F2125BD0A2B008E0998 /* Helper */,
 				9F05170F25BA431900E45EBB /* Mocks */,
 				9F05170625BA426F00E45EBB /* SearchView */,
 				9F0516B025BA34A000E45EBB /* Networking */,
@@ -357,6 +360,30 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		9FC17F2125BD0A2B008E0998 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9FC17F2325BD0A3E008E0998 /* CustomTextField */,
+				9FC17F2225BD0A34008E0998 /* LoadingView */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		9FC17F2225BD0A34008E0998 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		9FC17F2325BD0A3E008E0998 /* CustomTextField */ = {
+			isa = PBXGroup;
+			children = (
+				9FC17F2425BD0A4B008E0998 /* CustomTextFieldTests.swift */,
+			);
+			path = CustomTextField;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -534,6 +561,7 @@
 				9F0516D225BA385C00E45EBB /* APIErrorTests.swift in Sources */,
 				9F0516B925BA34DD00E45EBB /* HttpClientTests.swift in Sources */,
 				9F05171125BA432A00E45EBB /* MockNetworking.swift in Sources */,
+				9FC17F2525BD0A4B008E0998 /* CustomTextFieldTests.swift in Sources */,
 				9F0516CD25BA377000E45EBB /* HttpRequestTests.swift in Sources */,
 				9F05170825BA428D00E45EBB /* SearchRepositoryTests.swift in Sources */,
 				9F05171925BA443D00E45EBB /* MockConnectionsList.swift in Sources */,
