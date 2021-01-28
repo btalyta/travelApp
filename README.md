@@ -4,7 +4,7 @@ TravelApp is an app that helps you find the cheapest flight route available. You
 
 ### Architecture
 
-The architecture used do build app was MPV with Coordinators. Each view was built using view code and your attributes cannot access by others class.
+The architecture used do build app was MVP with Coordinators. Each view was built using view code and your attributes cannot access by others class.
 
 #### Coordinator
 The coordinator is responsible for managing the navigation flow in the app. 
